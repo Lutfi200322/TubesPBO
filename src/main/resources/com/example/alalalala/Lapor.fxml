@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="297.0" prefWidth="445.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alalalala.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Text layoutX="262.0" layoutY="27.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="PELAPORAN" textAlignment="CENTER">
+        <font>
+            <Font name="System Bold" size="12.0" />
+        </font>
+    </Text>
+
+    <Text layoutX="23.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Lengkap" wrappingWidth="413.779296875" />
+    <TextField accessibleRole="TEXT_AREA" layoutX="23.0" layoutY="58.0" prefHeight="26.0" prefWidth="534.0" promptText="Ex : Pateh pantek" />
+
+    <Text layoutX="23.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jenis Kelamin" wrappingWidth="413.779296875" />
+    <RadioButton layoutX="25.0" layoutY="125.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="423.0" text="Pria" />
+    <RadioButton layoutX="130.0" layoutY="125.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="461.0" text="Wanita" />
+
+    <Text layoutX="23.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tempat Tanggal Lahir" wrappingWidth="413.779296875" />
+    <TextField accessibleRole="TEXT_AREA" layoutX="25.0" layoutY="176.0" prefHeight="26.0" prefWidth="534.0" promptText="Ex : Bawah Jembatan" />
+   <Text layoutX="25.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Lengkap" wrappingWidth="413.779296875" />
+   <TextField accessibleRole="TEXT_AREA" layoutX="25.0" layoutY="237.0" prefHeight="26.0" prefWidth="534.0" promptText="Ex : Pateh pantek" />
+</AnchorPane>
